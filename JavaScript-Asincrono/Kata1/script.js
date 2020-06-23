@@ -2,7 +2,6 @@
 const num1Input = document.getElementById('num1');
 const num2Input = document.getElementById('num2');
 const zoneResult = document.getElementById('zoneResult');
-const form = document.getElementById("formulario");
 
 document.getElementById('reset')
     .addEventListener('click', () => {
