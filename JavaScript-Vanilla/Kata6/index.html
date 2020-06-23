@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+
+        var operacion = prompt("Introduce suma, resta, multi o divi: ");
+        var num1 = parseInt(prompt("Introduce el primer numero: "));
+        var num2 = parseInt(prompt("Introduce el segundo numero: "));
+
+        switch (operacion) {
+            case "suma":
+                alert("El resultado de la suma es " + Suma(num1, num2));
+                break;
+        
+            case "resta":
+                alert("El resultado de la resta es " + Resta(num1, num2));
+                break;
+
+            case "multi":
+                alert("El resultado de la multiplicacion es " + Multiplicacion(num1, num2));
+                break;
+
+            case "divi":
+                alert("El resultado de la division es " + Division(num1, num2));
+                break;
+
+            default:
+                alert("La operacion no se ha podido efectuar, debido que no has introducido un operacion correcta o no se ha introducido ninguna operacion.");
+                break;
+        }
+
+        function Suma(num1, num2){
+            return num1 + num2;
+        }
+
+        function Resta(num1, num2){
+            return num1 - num2;
+        }
+
+        function Multiplicacion(num1, num2){
+            return num1 * num2;
+        }
+
+        function Division(num1, num2){
+            return num1 / num2;
+        }
+
+    </script>
+</body>
+</html>
