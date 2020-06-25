@@ -1,3 +1,3 @@
 setTimeout(() => {
     console.log('TIMED OUT!');       
-}, 400);
+}, 300);

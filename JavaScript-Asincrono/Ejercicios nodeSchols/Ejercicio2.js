@@ -4,6 +4,6 @@
 var promise = new Promise( function (fulfill, reject){
     setTimeout(() => {
         fulfill('FULFILLED!');
-    }, 400);
+    }, 300);
 });
 promise.then(console.log)
